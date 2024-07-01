@@ -1,0 +1,149 @@
+.container{
+    margin-top:5% ;
+    background: linear-gradient(d9d1cc)
+    width: 30px ;
+    height: 30px ;
+    transition: width 10s, height 8s;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:  #d9d1cc;
+
+}
+
+nav a img.logo {
+    height: 80px;
+    width: 80px;
+    margin-right: 40px;
+    margin-top: 5px;
+    <text-align: left;
+    border-radius: 50%; 
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+    text-align: auto;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+nav a:hover {
+    background-color: #d9d1cc;
+    color: black;
+}
+nav {
+    background-color: #d9d1cc ;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro {
+    background-color: #d9d1xx;
+    font-size: 25px;
+    padding: 10;
+    float: right;
+}
+.intro p {
+    font-size: 20px;
+    font-weight: bold;
+    color: d9d1cc;
+}
+.caption {
+    background-color: d9d1cc;
+    padding: 10px;
+}
+
+.caption p {
+    font-size: 10px;
+    lineheight1.0;
+    color: d9d1cc;
+    float:right;
+
+}
+.CV{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+nav img {
+    height: 250px; 
+    width: 250px;
+    border-radius: 50%;
+    margin: auto; 
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.detel{
+    text-align: center;
+    color: white;
+    padding:5px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.Contact {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.Contact .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Contact .content a,
+.Contact .content p {
+  margin: 10px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Contact .content a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .Contact .content {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+    
+
+
