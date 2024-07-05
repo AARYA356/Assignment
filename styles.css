@@ -1,9 +1,9 @@
 
-body {
-    font-family: Arial, sans-serif;
+ body {
+    font-family:  italic;
     margin: 0;
-    background-color:  #d9d1cc;
-
+    background-color: #FFE4E1;
+    padding: 0;
 }
 
 nav a img.logo {
@@ -11,91 +11,94 @@ nav a img.logo {
     width: 80px;
     margin-right: 40px;
     margin-top: 5px;
-    <text-align: left;
-    border-radius: 50%; 
+    text-align: left;
+    border-radius: 50%;
+}
+img.logo:hover{
+    transform: scale(1.1);
 }
 
 nav a {
     color: black;
-    font-size: 20px;
-    text-align: auto;
-    padding: 15px 40px;
-    text-decoration: none;
+    font-size: 30px;
+    padding: 25px 40px;
     display: inline-block;
+    text-decoration: underline;
 }
-
 
 nav a:hover {
-    background-color: #d9d1cc;
+    background-color: #FFE4E1;
     color: black;
+    transform: scale(1.2);
 }
+
 nav {
-    background-color: #d9d1cc ;
+    background-color: #FFE4E1;
     display: flex;
     align-items: center;
     padding: 20px;
     font-size: 15px;
 }
 
-.container{
+.intro {
+    background-color: #FFE4E1;
+    font-size: 35px;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    margin-left: 5%;
+}
+
+.intro p {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10%;
+}
+
+.caption {
+    background-color:#FFE4E1;
+    padding: 5px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-
-}
-
-.intro {
-    background-color: #d9d1xx;
-    font-size: 25px;
-    padding: 10;
-    float: right;
-}
-.intro p {
-    font-size: 20px;
-    font-weight: bold;
-    color: d9d1cc;
-}
-.caption {
-    background-color: d9d1cc;
-    padding: 10px;
+    align-items: center; 
+    margin-left: 25%;
+    margin-top: -16%;
 }
 
 .caption p {
-    font-size: 10px;
-    lineheight1.0;
-    color: d9d1cc;
-    float:right;
-
+    font-size: 20px;
+    color: black;
+    margin: 0;
 }
-.CV{
-    text-align: center;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
 
-}
 
 
 nav img {
-    height: 250px; 
-    width: 250px;
+    height: 250px;
+    width: 230px;
     border-radius: 50%;
-    margin: auto; 
-    border-radius: 50%;
-    margin-left: 10%;
+    margin-right: 10px;
+    float: left;
+    margin-left: 3%;
+
 }
 
-.detel{
+.CV {
+    display: inline-block;
+    background-color: #FFE4E1;
     text-align: center;
-    color: white;
-    padding:5px;
+    font-size: 30px;
+    color: black;
+    margin-left: 45%;
+    text-decoration: underline;
+    cursor: pointer;
+
 }
+.CV:hover {
+    transform: scale(1.2);
 
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-size: sans-serif;
-    background-color: d9d1cc;
 }
 
 
@@ -106,38 +109,41 @@ nav img {
 
 .contact-page h2 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+.contact-page h2:hover{
+    text-decoration: underline;
+    transform: scale(1.0);
 }
 
 .contact-info {
-    display: inline-block;
+    display: inlin-block;
     vertical-align: middle;
     box-sizing: border-box;
     padding: 10px;
-    background: d9d1cc
+    background: #FFE4E1
     margin: 10px; 
-}
-
-
-.contact-info {
     width: 40%; 
     text-align: left;
     float: left;
     font-size: 20px;
     margin-bottom: 80px;
-    margin-top: 40px;
-
+    margin-top: 50px;
 }
 
 .contact-info h3 {
     font-size: 15px;
-    margin-bottom: 10px;
     text-align: left;
+    text-decoration: underline;
+    margin-top: 4%;
+    margin-left: 4%;
 }
 
 .contact-info p {
     margin-bottom: 10px;
     text-align: left;
+    margin-left: 4%;
 }
 
 .contact-info a {
@@ -148,10 +154,16 @@ nav img {
 
 .contact-info a:hover {
     text-decoration: underline;
+    transform: scale(1.1);
 }
+
 .contact-form h4 {
     text-align: right;
-    
+    text-decoration: underline;
+    margin-bottom: 5px;
+      font-size: 15px;
+    margin-top:50px;
+   
 }
 
 
@@ -161,10 +173,6 @@ nav img {
     float: right;
 }
 
-.contact-form h4 {
-    font-size: 15px;
-   
-}
 
 .form-group {
     margin-bottom: 15px;
@@ -184,7 +192,10 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    margin margin-top: 40px;
+    border-block-color: black;
+    
 }
 
 input[type="text"],
@@ -196,6 +207,7 @@ textarea {
     border-radius: 4px;
     font-size: 1rem;
     box-sizing: border-box;
+    border-block-color: black;
 }
 
 input[type="text"],
@@ -206,6 +218,8 @@ textarea#message {
     border-radius: 4px;
     font-size: 1rem;
     box-sizing: border-box;
+    border-block-color: black;
+    
 }
 
 }
@@ -226,28 +240,123 @@ footer input[type="submit"] {
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
+    float: right;
+    margin-right: 150px;
+    margin bottom: -2%;
 }
 
 footer input[type="submit"]:hover {
     background-color: #333;
 }
 
-/*
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;*/
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-    .contact-info, .contact-form {
-        width: 100%;
-        float: none;
-        margin: 0;
-        padding: 10px;
-    }
+p {
+    margin: 0 0 10px;
+    color: #555;
+}
 
-    footer input[type="submit"] {
-        width: 70px
-    }
+
+.page {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 2px;
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 27%;
+    text-decoration: underline;
+    margin-top: 3%;
+
+
+}
+.page:hover {
+    transform: scale(1);
+
+}
+
+.grid {
+    width:600px;
+    display: grid;
+    margin:20px auto;
+    grid-template-columns: 2;
+    gap: 10px;
+    padding: 0 20px;
+    background-color: #FFE4E1;
+    margin-top: 5%;
+    
+}
+
+.grid div {
+    background-color: lightpink;
+    padding: 20px;
+    box-shadow: white;
+    border-radius: 8px;
+    text-align: center;
+}
+.grid div img {
+    width:480px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+
+footer {
+    padding: 10px;
+    background-color:FFE4E1;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.topic {
+    text-align: center;
+}
+.topic h2 {
+    font-size: 30px;
+    background-color:#FFE4E1 ;
+    width: 20%;
+    margin-bottom: 3%;
+    margin-left: 38%;
+    text-decoration: underline;
+}
+
+.Introduction {
+    background-color: FFE4E1;
+    font-size: 20px;
+}
+.Introduction h3 {
+    text-align: left;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.Introduction p {
+    display: inline-block;
+    font-size: 20px;
+    background-color: lavenderblush;
+    color: black;
+}
+.vision {
+    font-size: 20px;
+}
+.vision h4 {
+    text-align: left;
+    color: black;
+    margin-bottom: 2px;
+}
+.vision p{
+    display: inline-block;
+    font-size: 20px;
+    background-color: lavenderblush;
+    color: black;
 }
