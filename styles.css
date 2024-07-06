@@ -17,7 +17,13 @@ nav a img.logo {
 img.logo:hover{
     transform: scale(1.1);
 }
-
+nav {
+    background-color: #FFE4E1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 15px;
+}
 nav a {
     color: black;
     font-size: 30px;
@@ -30,15 +36,9 @@ nav a:hover {
     background-color: #FFE4E1;
     color: black;
     transform: scale(1.2);
+    color: hotpink;
 }
 
-nav {
-    background-color: #FFE4E1;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    font-size: 15px;
-}
 
 .intro {
     background-color: #FFE4E1;
@@ -96,10 +96,6 @@ nav img {
     cursor: pointer;
 
 }
-.CV:hover {
-    transform: scale(1.2);
-
-}
 
 
 .contact-page {
@@ -118,14 +114,11 @@ nav img {
 }
 
 .contact-info {
-    display: inlin-block;
+    display: inline-block;
     vertical-align: middle;
     box-sizing: border-box;
     padding: 10px;
-    background: #FFE4E1
-    margin: 10px; 
     width: 40%; 
-    text-align: left;
     float: left;
     font-size: 20px;
     margin-bottom: 80px;
@@ -134,7 +127,6 @@ nav img {
 
 .contact-info h3 {
     font-size: 15px;
-    text-align: left;
     text-decoration: underline;
     margin-top: 4%;
     margin-left: 4%;
@@ -148,29 +140,12 @@ nav img {
 
 .contact-info a {
     color: #000; 
-    text-decoration: none;
     text-align: left;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-    transform: scale(1.1);
-}
-
-.contact-form h4 {
-    text-align: right;
-    text-decoration: underline;
-    margin-bottom: 5px;
-      font-size: 15px;
-    margin-top:50px;
-   
 }
 
 
 .contact-form {
     width: 50%; 
-    text-align: left;
-    float: right;
 }
 
 
@@ -189,11 +164,9 @@ input[type="Name"],
 textarea {
     width: 60%;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
-    box-sizing: content-box;
-    margin margin-top: 40px;
+    margin-top: 40px;
     border-block-color: black;
     
 }
@@ -203,7 +176,6 @@ input[type="email"],
 textarea {
     width: 60%;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
     box-sizing: border-box;
@@ -214,47 +186,34 @@ input[type="text"],
 textarea#message {
     width: 60%;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
     box-sizing: border-box;
     border-block-color: black;
+    margin-top: 5px;
     
-}
 
 }
 
-textarea {
-    resize: vertical;
-}
-
-footer input[type="submit"] {
+input[type="submit"] {
     display: block;
     width: 40%;
     margin: 20px auto;
     padding: 10px;
-    background-color: #000;
+    background-color: black;
     color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
     float: right;
-    margin-right: 150px;
-    margin bottom: -2%;
-}
-
-footer input[type="submit"]:hover {
-    background-color: #333;
+    margin-right: 6%;
+    margin-top:5px;
 }
 
 
 h2 {
-    text-align: center;
     margin: 20px 0;
-    color: #333;
-    text-align: center;
+    color: black;
 }
 
 p {
@@ -273,21 +232,14 @@ p {
     margin-left: 27%;
     text-decoration: underline;
     margin-top: 3%;
-
-
-}
-.page:hover {
-    transform: scale(1);
-
 }
 
 .grid {
-    width:600px;
+    width:400px;
     display: grid;
     margin:20px auto;
-    grid-template-columns: 2;
     gap: 10px;
-    padding: 0 20px;
+    padding:10px;
     background-color: #FFE4E1;
     margin-top: 5%;
     
@@ -296,12 +248,11 @@ p {
 .grid div {
     background-color: lightpink;
     padding: 20px;
-    box-shadow: white;
     border-radius: 8px;
     text-align: center;
 }
 .grid div img {
-    width:480px;
+    width:400px;
     height: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -311,7 +262,7 @@ p {
 
 footer {
     padding: 10px;
-    background-color:FFE4E1;
+    background-color:#FFE4E1;
     width: 100%;
     margin-top: 20px;
 }
@@ -331,7 +282,7 @@ footer {
 }
 
 .Introduction {
-    background-color: FFE4E1;
+    background-color:#FFE4E1;
     font-size: 20px;
 }
 .Introduction h3 {
@@ -348,6 +299,7 @@ footer {
 }
 .vision {
     font-size: 20px;
+    border-block-color: black;
 }
 .vision h4 {
     text-align: left;
@@ -359,4 +311,5 @@ footer {
     font-size: 20px;
     background-color: lavenderblush;
     color: black;
+    border-block-color: black;
 }
